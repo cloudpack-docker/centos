@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:latest
 
 RUN yum -y update
 RUN yum -y reinstall glibc-common
